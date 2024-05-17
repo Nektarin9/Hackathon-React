@@ -1,7 +1,18 @@
-import { Progress } from './components';
-import './App.css';
+import { Footer, Header } from './components';
+import styles from './App.module.css';
+import { Route, Routes } from "react-router-dom";
 
-// Все является иперативным стилем
 export const App = () => {
-	return <Progress protsent={85} technology={"REACT"}></Progress>;
+	return (
+		<div className={styles.App}>
+			<Header />
+			<div className={styles.content}>
+				<Routes>
+					<Route path="/" element={<div>Главная страница</div>} />
+					<Route path="*" element={<div>Ошибка</div>} />
+				</Routes>
+			</div>
+			<Footer />
+		</div>
+	)
 };

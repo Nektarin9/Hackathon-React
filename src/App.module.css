@@ -1,0 +1,11 @@
+.App {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #17372f;
+	color: #d0e9e3;
+}
+
+.content {
+	margin-top: 120px;
+	height: 50vw;
+}
