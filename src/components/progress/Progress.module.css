@@ -3,14 +3,15 @@
 	vertical-align: middle;
 	max-width: 1000px;
 	width: 100%;
-	background-color: #dbdada;
+	background-color: #d0e9e3;;
 	margin: 0 10px;
 	border-radius: 1em;
 }
 .h1_technology {
+	text-align: left;
 	margin: 7px 0;
 	margin-left: 10px;
 	font-size: 24px;
-	color: black;
+	color: #d0e9e3;;
 }
 

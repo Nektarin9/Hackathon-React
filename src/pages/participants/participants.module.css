@@ -4,7 +4,11 @@
 }
 
 .fotoContainer {
-	margin: 20px auto;
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
 }
 
 .textContent {
@@ -14,18 +18,21 @@
 }
 
 .info {
-	width: 200px;
-	margin: 5px auto;
-	display: flex;
-	justify-content: space-around;
+	margin: 25px auto;
+	font-size: 24px;
+	font-weight: 500;
+
+
 }
 
 .fotoContent {
-	width: 200px;
+	width: 350px;
+
+	border-radius: 1rem;
 }
 
 .socialContent {
-	width: 200px;
+	width: 300px;
 	margin: 5px auto;
 	display: flex;
 	justify-content: space-between;

@@ -1,4 +1,6 @@
 import { TeamCard } from './components';
+import { Breadcrumbs } from '../../components';
+
 import styles from './main.module.css';
 
 const users = {
@@ -24,18 +26,25 @@ const users = {
 
 export const Main = () => {
 	return (
-		<div className={styles.mainContainer}>
-			<TeamCard id="Natalia" name={users.nata.name} aboutMe={users.nata.aboutMe} />
-			<TeamCard
-				id="Vladislav"
-				name={users.vladislav.name}
-				aboutMe={users.vladislav.aboutMe}
-			/>
-			<TeamCard
-				id="Michael"
-				name={users.michael.name}
-				aboutMe={users.michael.aboutMe}
-			/>
-		</div>
+		<>
+			<Breadcrumbs address="/">Home</Breadcrumbs>
+			<div className={styles.mainContainer}>
+				<TeamCard
+					id="Natalia"
+					name={users.nata.name}
+					aboutMe={users.nata.aboutMe}
+				/>
+				<TeamCard
+					id="Vladislav"
+					name={users.vladislav.name}
+					aboutMe={users.vladislav.aboutMe}
+				/>
+				<TeamCard
+					id="Michael"
+					name={users.michael.name}
+					aboutMe={users.michael.aboutMe}
+				/>
+			</div>
+		</>
 	);
 };

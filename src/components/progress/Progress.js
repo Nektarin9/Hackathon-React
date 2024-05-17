@@ -13,7 +13,6 @@ export const Progress = ({ protsent, technology, color }) => {
 		color: 'white',
 	};
 
-	console.log(styles.progress_container);
 	return (
 		<>
 			<h1 className={styles.h1_technology}>{technology}</h1>

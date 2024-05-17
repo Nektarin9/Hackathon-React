@@ -4,9 +4,10 @@ export const Badge = ({ color, children }) => {
 		margin: "10px 8px",
 		height: '40px',
 		fontSize: '22px',
+		maxWidth: "150px",
 		backgroundColor: `${color}`,
 		color: 'white',
 		borderRadius: '10px',
 	};
-	return <button style={badgeStyle}>{children}</button>;
+	return <div style={badgeStyle}>{children}</div>;
 };

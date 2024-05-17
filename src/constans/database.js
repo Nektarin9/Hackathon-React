@@ -1,4 +1,5 @@
 export const DB_VLADISLAV = {
+	name: 'Vladislav',
 	technology: [
 		{ protsent: '70%', name: 'HTML', color: '#ac1c02' },
 		{ protsent: '73%', name: 'СSS', color: '#1f406b' },
@@ -15,29 +16,14 @@ export const DB_VLADISLAV = {
 	badge: [
 		{
 			title: 'Team lead',
-			color: 'black',
-		},
-		{
-			title: 'Ведущий инженер',
-			color: '#df5d00',
-		},
-		{
-			title: 'REACT',
-			color: '#ac1c02',
-		},
-		{
-			title: 'JS',
 			color: '#cdb100',
 		},
 		{
-			title: 'HTML',
-			color: '#ac1c02',
-		},
-		{
-			title: 'СSS',
+			title: 'Инженер',
 			color: '#1f406b',
 		},
 	],
+
 	sliderImg: [
 		'https://iimg.su/s/17/wd8ir1YgV0J289DhX1RUF9jAwHHkNPCe3AsaqDfG.png',
 		'https://iimg.su/s/17/6iN0Lsr8M53zaC3aVjiMf6q3p1ALe3goZj7pBl5e.png',
@@ -58,6 +44,7 @@ export const DB_VLADISLAV = {
 };
 /*-----------------------------------------------------------*/
 export const DB_NATALIA = {
+	name: 'Natalia',
 	technology: [
 		{ protsent: '70%', name: 'HTML' },
 		{ protsent: '70%', name: 'REACT' },
@@ -67,6 +54,7 @@ export const DB_NATALIA = {
 };
 /*-----------------------------------------------------------*/
 export const DB_MICHAEL = {
+	name: 'Michael',
 	technology: [
 		{ protsent: '70%', name: 'HTML' },
 		{ protsent: '70%', name: 'REACT' },
