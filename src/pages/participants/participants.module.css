@@ -1,0 +1,32 @@
+.participantsContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.fotoContainer {
+	margin: 20px auto;
+}
+
+.textContent {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.info {
+	width: 200px;
+	margin: 5px auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.fotoContent {
+	width: 200px;
+}
+
+.socialContent {
+	width: 200px;
+	margin: 5px auto;
+	display: flex;
+	justify-content: space-between;
+}

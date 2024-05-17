@@ -1,0 +1,34 @@
+.cardContent a {
+	text-decoration: none;
+	color: #0c0c0c;
+}
+
+.block {
+	text-decoration: none;
+	margin: 15px;
+	cursor: pointer;
+	display: flex;
+	width: 100%;
+	border-radius: 22px;
+	border: 1px solid;
+}
+
+.block:hover {
+	background-color: brown;
+}
+
+.fotoContent {
+	width: 215px;
+	border-radius: 22px;
+}
+
+.photoContainer {
+	display: flex;
+}
+
+.textContainer {
+	padding: 10px;
+	margin-left: 10px;
+	text-align: center;
+	width: 75%;
+}
