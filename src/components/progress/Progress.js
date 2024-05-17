@@ -1,21 +1,24 @@
-import styles from './Progress.module.css';
+import styles from './progress.module.css';
 
-export const Progress = ({ protsent, technology }) => {
+export const Progress = ({ protsent, technology, color }) => {
 	const progressBar = {
-		width: `${protsent}%`,
-		height: '30px',
-		backgroundColor: '#4caf50',
+		display: `flex`,
+		alignItems: `center`,
+		justifyContent: `center`,
+		width: `${protsent}`,
+		height: '25px',
+		backgroundColor: color,
 		textAlign: 'center',
-		lineРeight: '30px',
+		borderRadius: '1em',
 		color: 'white',
 	};
 
 	console.log(styles.progress_container);
 	return (
 		<>
-			<h1>{technology}</h1>
+			<h1 className={styles.h1_technology}>{technology}</h1>
 			<div className={styles.container}>
-				<div style={progressBar}>{protsent}%</div>
+				<div style={progressBar}>{protsent}</div>
 			</div>
 		</>
 	);

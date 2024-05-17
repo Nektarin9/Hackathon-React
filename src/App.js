@@ -1,7 +1,9 @@
-import { Progress } from './components';
+import { Progress, Button, Breadcrumbs, Badge, Slider } from './components';
+import { DB_VLADISLAV } from './constans/database';
 import './App.css';
 
-// Все является иперативным стилем
 export const App = () => {
-	return <Progress protsent={85} technology={"REACT"}></Progress>;
+	return (
+		<></>
+	);
 };

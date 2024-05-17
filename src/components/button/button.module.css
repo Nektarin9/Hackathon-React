@@ -1,0 +1,22 @@
+.button_container {
+	width: 120px;
+}
+.buttonStyle {
+	border: 1px solid #dbdbdb;
+	font-size: 14px;
+	transform: 0.3s;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.buttonStyle:hover {
+	border: 1px solid #b0b0b0;
+	transform: 0.3s;
+	transition: 0.3s;
+}
+
+.kvadrat {
+	border-radius: 0px;
+}
+.radius {
+	border-radius: 1em;
+}

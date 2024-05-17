@@ -1,0 +1,18 @@
+.link_text {
+	font-size: 20px;
+	font-weight: 600;
+	transition: 0.3s;
+	transform: 0.3s;
+}
+.link_text_target {
+	font-size: 20px;
+	font-weight: 600;
+	transition: 0.3s;
+	transform: 0.3s;
+	color: #00e2aa;
+}
+.link_text:hover {
+	color: rgb(80, 0, 0);
+	transition: 0.3s;
+	transform: 0.3s;
+}
