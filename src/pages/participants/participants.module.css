@@ -37,3 +37,7 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+.container_Badge {
+	position: absolute;
+}

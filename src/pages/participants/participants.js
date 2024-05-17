@@ -10,6 +10,13 @@ export const Participants = ({ DB }) => {
 		<>
 			<Breadcrumbs address="/">Home</Breadcrumbs>
 			<Breadcrumbs address={`/${name}`}>{name}</Breadcrumbs>
+			<div className={styles.container_Badge}>
+			{badge.map(({ title, color }, index) => (
+						<Badge color={color} key={index}>
+							{title}
+						</Badge>
+					))}
+				</div>
 			<div className={styles.participantsContainer}>
 				<div className={styles.fotoContainer}>
 					<img
@@ -40,11 +47,7 @@ export const Participants = ({ DB }) => {
 							protsent={protsent}
 						/>
 					))}
-					{badge.map(({ title, color }, index) => (
-						<Badge color={color} key={index}>
-							{title}
-						</Badge>
-					))}
+
 					<p>Примеры</p>
 					<Slider imgSrc={sliderImg} />
 				</div>

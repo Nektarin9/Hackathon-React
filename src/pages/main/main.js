@@ -1,5 +1,5 @@
 import { TeamCard } from './components';
-import { Breadcrumbs } from '../../components';
+import { Breadcrumbs, Button } from '../../components';
 
 import styles from './main.module.css';
 
@@ -34,16 +34,19 @@ export const Main = () => {
 					name={users.nata.name}
 					aboutMe={users.nata.aboutMe}
 				/>
+				<Button color={"#ac1c02"} type={true}></Button>
 				<TeamCard
 					id="Vladislav"
 					name={users.vladislav.name}
 					aboutMe={users.vladislav.aboutMe}
 				/>
+				<Button color={"#ac1c02"} type={true}></Button>
 				<TeamCard
 					id="Michael"
 					name={users.michael.name}
 					aboutMe={users.michael.aboutMe}
 				/>
+				<Button color={"#ac1c02"} type={true}></Button>
 			</div>
 		</>
 	);
