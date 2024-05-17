@@ -1,4 +1,4 @@
-export * from './progress/progress';
+export * from './progress/Progress';
 export * from './button/button';
 export * from './breadcrumbs/breadcrumbs';
 export * from './badge/badge';

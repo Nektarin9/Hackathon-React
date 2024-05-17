@@ -25,6 +25,12 @@
 	justify-content: left;
 }
 
+.list {
+	width: 100%;
+	display: flex;
+}
+
 .link {
-	margin-right: 15px;
+	font-size: 24px;
+	margin-right: 35px;
 }

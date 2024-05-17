@@ -1,5 +1,4 @@
 import styles from './participants.module.css';
-import foto from '../../image/kittens.jpg';
 import { IconSocial, Badge, Progress, Slider, Breadcrumbs } from '../../components';
 import { iconImages } from '../../constants/imagesPath';
 
