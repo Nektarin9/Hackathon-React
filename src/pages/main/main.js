@@ -4,9 +4,21 @@ import { TeamCard } from './components/team-card/team-card';
 import { Breadcrumbs } from '../../components';
 
 import styles from './main.module.css';
+import { useEffect } from "react";
 
 export const Main = () => {
 	const team = Object.entries(database);
+
+	useEffect(() => {
+		const cards = document.querySelectorAll(`.${styles.card}`);
+		cards.forEach((card, index) => {
+			setTimeout(() => {
+				card.style.opacity = 1;
+				card.style.transform = 'translateY(0)';
+			}, index * 300);
+		});
+	}, [team]);
+
 	return (
 		<>
 			<Breadcrumbs address="/">Home</Breadcrumbs>
