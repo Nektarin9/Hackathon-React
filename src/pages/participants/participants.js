@@ -1,18 +1,9 @@
-import styles from './participants.module.css';
-import foto from '../../image/kittens.jpg';
-import {
-	IconSocial,
-	Badge,
-	Progress,
-	Slider,
-	Breadcrumbs,
-	Button,
-} from '../../components';
+import { IconSocial, Badge, Progress, Slider, Breadcrumbs } from '../../components';
 import { iconImages } from '../../constants/imagesPath';
+import styles from './participants.module.css';
 
 export const Participants = ({ DB }) => {
 	const { name, technology, badge, sliderImg, person, socialNetwork } = DB;
-	console.log(badge);
 	return (
 		<>
 			<Breadcrumbs address="/">Home /</Breadcrumbs>
