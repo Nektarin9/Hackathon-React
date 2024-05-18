@@ -56,8 +56,11 @@ export const DB_NATALIA = {
 export const DB_MICHAEL = {
 	name: 'Michael',
 	technology: [
-		{ protsent: '70%', name: 'HTML' },
-		{ protsent: '70%', name: 'REACT' },
+		{ protsent: '70%', name: 'HTML', color: '#ac1c02' },
+		{ protsent: '60%', name: 'СSS', color: '#1f406b' },
+		{ protsent: '70%', name: 'REACT', color: '#005aa9' },
+		{ protsent: '30%', name: 'REACT-NATIVE', color: '#d10073' },
+		{ protsent: '57%', name: 'JS', color: '#cdb100' },
 	],
 	badge: ['???'],
 	sliderImg: ['src'],
