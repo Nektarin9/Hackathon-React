@@ -5,7 +5,7 @@ export const AboutUs = () => {
 	return (
 		<>
 			<Breadcrumbs address="/">Home /</Breadcrumbs>
-			<Breadcrumbs address={`/aboutus`}>Aboutus</Breadcrumbs>
+			<Breadcrumbs address={`/aboutus`}>About us</Breadcrumbs>
 			<div className={styles.container}>
 				<h1 className={styles.h1_text}>
 					Всем привет! Мы - команда Pixel Pioneers!

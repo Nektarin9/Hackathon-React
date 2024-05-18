@@ -12,7 +12,8 @@ export const Favorites = () => {
 		setLs(readAllLS());
 	}, [remove]);
 
-	const removeLc = (key) => {
+
+	const deletePerson = (key) => {
 		ls.forEach(({ name }, index) => {
 			if (name === key) {
 				removeLS(key);
@@ -39,7 +40,7 @@ export const Favorites = () => {
 								shadowColor={'rgb(255 0 0)'}
 								typeBtn={true}
 								parameter={name}
-								onClick={removeLc}
+								onClick={deletePerson}
 							>
 								Удалить
 							</TeamCard>
