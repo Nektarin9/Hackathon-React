@@ -1,9 +1,9 @@
 import styles from './icon.module.css';
 
-export const IconSocial = ({ image }) => {
+export const IconSocial = ({ image, href }) => {
 	return (
-		<div className={styles.icon}>
+		<a href={href} target="_blanc" className={styles.icon}>
 			<img src={image} alt="" />
-		</div>
+		</a>
 	);
 };

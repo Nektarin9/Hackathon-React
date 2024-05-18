@@ -28,9 +28,12 @@ p {
 	margin: 0;
 }
 a {
-	color: #000;
-	text-decoration: none;
-}
+	color: blue;
+	text-decoration: none; /* no underline */
+	color: inherit; /* blue colors for links too */
+
+  }
+
 img {
 	pointer-events: none;
 }

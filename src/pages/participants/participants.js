@@ -1,22 +1,21 @@
 import styles from './participants.module.css';
-import foto from '../../image/kittens.jpg';
 import { IconSocial, Badge, Progress, Slider, Breadcrumbs } from '../../components';
 import { iconImages } from '../../constants/imagesPath';
 
 export const Participants = ({ DB }) => {
-	const { name, technology, badge, sliderImg, person } = DB;
+	const { name, technology, badge, sliderImg, person, socialNetwork } = DB;
 	console.log(badge);
 	return (
 		<>
-			<Breadcrumbs address="/">Home</Breadcrumbs>
+			<Breadcrumbs address="/">Home /</Breadcrumbs>
 			<Breadcrumbs address={`/${name}`}>{name}</Breadcrumbs>
 			<div className={styles.container_Badge}>
-			{badge.map(({ title, color }, index) => (
-						<Badge color={color} key={index}>
-							{title}
-						</Badge>
-					))}
-				</div>
+				{badge.map(({ title, color }, index) => (
+					<Badge color={color} key={index}>
+						{title}
+					</Badge>
+				))}
+			</div>
 			<div className={styles.participantsContainer}>
 				<div className={styles.fotoContainer}>
 					<img
@@ -27,9 +26,13 @@ export const Participants = ({ DB }) => {
 				</div>
 
 				<div className={styles.socialContent}>
-					<IconSocial image={iconImages.VK} />
-					<IconSocial image={iconImages.telegram} />
-					<IconSocial image={iconImages.github} />
+					<IconSocial href={socialNetwork.vk} image={iconImages.VK} />
+					<IconSocial
+						href={socialNetwork.telegram}
+						image={iconImages.telegram}
+					/>
+					<div className={styles.color_icon}></div>
+					<IconSocial href={socialNetwork.github} image={iconImages.github} />
 				</div>
 				<div className={styles.textContent}>
 					<div className={styles.info}>

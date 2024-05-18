@@ -3,7 +3,8 @@
 }
 .buttonStyle {
 	border: 1px solid #dbdbdb;
-	font-size: 14px;
+	font-size: 18px;
+	font-weight: 600;
 	transform: 0.3s;
 	transition: 0.3s;
 	cursor: pointer;

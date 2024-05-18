@@ -12,7 +12,7 @@ export const Breadcrumbs = ({ address, children }) => {
 				}
 				to={address}
 			>
-				{children} /{' '}
+				{children}{' '}
 			</NavLink>
 		</>
 	);

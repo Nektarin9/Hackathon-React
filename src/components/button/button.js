@@ -1,5 +1,5 @@
 import styles from './button.module.css';
-export const Button = ({ color, onClick, children, type }) => {
+export const Button = ({ color, parameter, onClick, children, type }) => {
 	const buttonStyle = {
 		width: '100%',
 		height: '40px',
@@ -8,7 +8,7 @@ export const Button = ({ color, onClick, children, type }) => {
 	return (
 		<div className={styles.button_container}>
 			<button
-				onClick={onClick}
+				onClick={() => onClick(parameter)}
 				style={buttonStyle}
 				className={
 					type
