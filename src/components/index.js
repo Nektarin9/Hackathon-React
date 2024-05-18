@@ -7,3 +7,4 @@ export * from './icon/iconSocial';
 export * from './header/header';
 export * from './footer/footer';
 export * from './card/card';
+export * from './popover/popover';

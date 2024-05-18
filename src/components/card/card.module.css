@@ -12,18 +12,18 @@
 	width: 100%;
 	border-radius: 22px;
 	border: 1px solid;
-	transform: 0.3s;
+	transform: initial;
 	transition: 0.3s;
 }
 
 .block:hover {
 	box-shadow: 10px 10px 100px 6px #09786b;
-	transform: 0.3s;
+	transform: initial;
 	transition: 0.3s;
 }
 
 .fotoContent {
-	width: 215px;
+	width: 300px;
 	border-radius: 22px;
 	color: #d0e9e3;
 }
@@ -40,6 +40,7 @@
 
 }
 .btn {
+	position: relative;
 	margin-left: 60px;
 }
 

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export const IconSocial = ({ image, href }) => {
 	return (
 		<a href={href} target="_blanc" className={styles.icon}>
-			<img src={image} alt="" />
+			<img src={image} alt="Контакты" />
 		</a>
 	);
 };

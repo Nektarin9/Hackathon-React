@@ -6,9 +6,12 @@
 	margin: 0 auto;
 	background-color: #17372f;
 	color: #d0e9e3;
+	box-shadow: 0px 10px 17px -13px #00e2aa;
+
 }
 
 .content {
 	margin: 8.5rem 2.5rem 0 2.5rem;
+
 	min-height: calc(100vh - 296px);
 }

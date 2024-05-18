@@ -2,17 +2,17 @@ export const database = {
 	DB_VLADISLAV: {
 		name: 'Vladislav',
 		technology: [
-			{ protsent: '70%', name: 'HTML', color: '#ac1c02' },
-			{ protsent: '73%', name: 'СSS', color: '#1f406b' },
-			{ protsent: '13%', name: 'SСSS', color: '#d10073' },
-			{ protsent: '57%', name: 'JS', color: '#cdb100' },
+			{ protsent: '83%', name: 'HTML', color: '#ac1c02' },
+			{ protsent: '81%', name: 'СSS', color: '#1f406b' },
+			{ protsent: '21%', name: 'SСSS', color: '#d10073' },
+			{ protsent: '74%', name: 'JS', color: '#cdb100' },
 			{
 				protsent: '62%',
 				name: 'REACT (Redux, React Redux, React-router)',
 				color: '#005aa9',
 			},
 			{ protsent: '46%', name: 'GIT', color: 'black' },
-			{ protsent: '22%', name: 'PostgeSQL', color: '#197547' },
+			{ protsent: '32%', name: 'PostgeSQL', color: '#197547' },
 		],
 		badge: [
 			{
@@ -20,27 +20,32 @@ export const database = {
 				color: '#cdb100',
 			},
 			{
-				title: 'Инженер',
+				title: 'Engineer',
 				color: '#1f406b',
 			},
 		],
 
 		sliderImg: [
 			'https://iimg.su/s/17/wd8ir1YgV0J289DhX1RUF9jAwHHkNPCe3AsaqDfG.png',
+			'https://iimg.su/s/18/su276jSlvxoBN67fOKD6qYHjhqUxt5f548oDkUfv.png',
+			'https://iimg.su/s/18/V3Jgtzb1McpHNff1X301U570rwY7lufn7P39OLeS.png',
 			'https://iimg.su/s/17/6iN0Lsr8M53zaC3aVjiMf6q3p1ALe3goZj7pBl5e.png',
 			'https://iimg.su/s/17/4o4Sn2RAnP2ohh412s3RXP4VwLlQ0q5FBMtHzIsv.png',
 			'https://iimg.su/s/17/bLMT5kUE1kgNzfYnfjI5r6btFDqfkQurjhTwT1HF.png',
 			'https://iimg.su/s/17/HgZE4LIk5fQuc2OJxIKZ7QHjum9WkVetM2WG95Jc.png',
-			'https://iimg.su/s/17/ADjPAc3L3n6SpaGK9UWXWbaJprYoHV0umGLh77Lm.png',
+			'https://iimg.su/s/18/3cXhXWh6ar2B3GwPmdvwd4QevzSStmkW5qgqBJPC.png',
+			'https://iimg.su/s/18/PSkvjEJBgESt1nwekfXjzRksfzZB0g4YtXebwIBP.png',
 		],
 		person: {
-			name: 'Владислав Каспаров',
+			name: 'Vladislav Kasparov (NektarinKoO)',
 			age: 27,
 			city: 'Москва',
 			photo: 'https://iimg.su/s/17/zfO2xboHrMegkLvb09FWfTHdFYDlX3HioHYUTFj8.png',
 			content: `Я ведущий инженер и Frontend разработчик, закончил Московский технический университет связи и информатики.
-			Отлично владею HTML, CSS, JS, React, имею опыт коммерческой разработки, неоднократно учавствовал в хакатона в качестве Team Lead.
-			Имею опыт работы с коммутаторами: Qtech, D-link, Edge Core и другими. мне нравятся ночные и вечерные прогулки. В свободное время я люблю посещать спортзал.`,
+			Отлично владею HTML, CSS, JS, React, имею опыт коммерческой разработки, неоднократно учавствовал в хакатонах в качестве Team Lead.
+			Имею опыт работы с коммутаторами: Qtech, D-link, Edge Core и другими. На данной странице мною были реализованы компоненты: slider, progress (частично), breadcrumbs, badge, button, about-us (частично), popover.
+			Реализовал всю логику работы local storage и разработал структуру базы данных. Выполнил общий рефакторинг и доработал все остальные компоненты. Мне нравятся вечерние прогулки. В свободное время люблю посещать спортзал.
+			`,
 		},
 		socialNetwork: {
 			vk: 'https://vk.com/id88581034',
@@ -79,14 +84,14 @@ export const database = {
 			'https://iimg.su/s/18/KJqIFpG8dvnf6yXiWekwaXBjm7BaPo30vq0I9jUj.png',
 		],
 		person: {
-			name: 'Natalia',
+			name: 'Natalia Romanova (Natalika-frontend)',
 			age: 30,
 			city: 'Зугрэс',
 			photo: 'https://iimg.su/s/18/02o1kgC7nOH3VntcG2W04XYYkT2XVgIrIjbW71fk.png',
 			content: `Я начинающий Frontend разработчик, закончила Донецкий Национальный технический университет.
 			Отлично владею HTML, CSS, JS, React, SCSS, PUG.
 			Имею навыки работы c C, C++, C#, PHP.
-			Меня очень увлекает программирование, фронтенд - моя страсть, очень хочется еще освоить безопасность вэб-приложений. Мне бы 48 часов в сутках, и 40 из них посвящала бы программированию `,
+			Меня очень увлекает программирование, фронтенд - моя страсть, очень хочется еще освоить безопасность вэб-приложений. Мне бы 48 часов в сутках, и 40 из них посвящала бы программированию. Для этого сайта я реализовала: progress(частично), header, footer, page404, about-us(частично), анимацию главной страницы`,
 		},
 		socialNetwork: {
 			vk: 'https://vk.com/natallikar',
@@ -145,4 +150,3 @@ export const database = {
 		},
 	},
 };
-
