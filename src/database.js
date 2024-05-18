@@ -37,10 +37,10 @@ export const database = {
 			'https://iimg.su/s/18/PSkvjEJBgESt1nwekfXjzRksfzZB0g4YtXebwIBP.png',
 		],
 		person: {
-			name: 'Vladislav Kasparov (NektarinKoO)',
+			name: 'Vladislav',
 			age: 27,
 			city: 'Москва',
-			photo: 'https://iimg.su/s/17/zfO2xboHrMegkLvb09FWfTHdFYDlX3HioHYUTFj8.png',
+			photo: 'https://iimg.su/s/18/KDLkdUPppmuMkUCp9TPX1AGCaq8wmooxaCfiNpmg.jpg',
 			content: `Я ведущий инженер и Frontend разработчик, закончил Московский технический университет связи и информатики.
 			Отлично владею HTML, CSS, JS, React, имею опыт коммерческой разработки, неоднократно учавствовал в хакатонах в качестве Team Lead.
 			Имею опыт работы с коммутаторами: Qtech, D-link, Edge Core и другими. На данной странице мною были реализованы компоненты: slider, progress (частично), breadcrumbs, badge, button, about-us (частично), popover.
@@ -142,7 +142,6 @@ export const database = {
 			'https://iimg.su/s/18/th_kqISbbXuRlO9i2RskYGtReqUzg75AqXuIGemkVd7.jpg',
 			'https://iimg.su/s/18/83bnStzW8SndsjtiLy3fNY4XDSCv6vgdzQsKIm0k.jpg',
 			'https://iimg.su/s/18/FFfoArUnwzSnmJNFi0o2GK7r7t7Pid63wum7HG0A.jpg',
-			'https://iimg.su/s/18/3yzhOYkzy62PqeIdc9mTyD5620Bb76NCL1lv1tJY.jpg',
 		],
 		person: {
 			name: 'Michael',
