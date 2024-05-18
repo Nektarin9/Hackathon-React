@@ -9,9 +9,11 @@
 }
 .h1_technology {
 	text-align: left;
-	margin: 7px 0;
-	margin-left: 10px;
+	margin: 7px 0 7px 10px;
 	font-size: 24px;
 	color: #d0e9e3;;
 }
 
+.buttonContainer {
+	margin: 10px;
+}

@@ -27,6 +27,6 @@ Button.propTypes = {
 	color: PropTypes.string,
 	parameter: PropTypes.object,
 	onClick: PropTypes.func,
-	children: PropTypes.arrayOf(PropTypes.string),
+	children: PropTypes.any,
 	type: PropTypes.bool,
 };

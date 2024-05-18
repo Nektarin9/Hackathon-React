@@ -5,7 +5,7 @@ export const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.container}>
-				<Clock />
+				<Clock/>
 			</div>
 		</footer>
 	);
