@@ -1,5 +1,6 @@
 .participantsContainer {
 	display: flex;
+	width: 70vw;
 	flex-direction: column;
 	width: 100%;
 }
@@ -20,6 +21,7 @@
 	border: 1px solid;
 	border-radius: 1rem;
 	text-align: center;
+	width: 70vw;
 	display: flex;
 	flex-direction: column;
 }

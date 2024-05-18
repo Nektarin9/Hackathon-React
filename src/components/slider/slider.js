@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -35,4 +36,8 @@ export const Slider = ({ imgSrc }) => {
 			</Swiper>
 		</div>
 	);
+};
+
+Slider.propTypes = {
+	imgSrc: PropTypes.array,
 };

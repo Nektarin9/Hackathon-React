@@ -1,4 +1,11 @@
-import { IconSocial, Badge, Progress, Slider, Breadcrumbs } from '../../components';
+import PropTypes from 'prop-types';
+import {
+	IconSocial,
+	Badge,
+	Progress,
+	Slider,
+	Breadcrumbs,
+} from '../../components';
 import { iconImages } from '../../constants/imagesPath';
 import styles from './participants.module.css';
 
@@ -56,4 +63,8 @@ export const Participants = ({ DB }) => {
 			</div>
 		</>
 	);
+};
+
+Participants.propTypes = {
+	DB: PropTypes.object,
 };

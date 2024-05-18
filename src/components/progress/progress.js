@@ -1,4 +1,5 @@
 import styles from './progress.module.css';
+import PropTypes from "prop-types";
 
 export const Progress = ({ protsent, technology, color }) => {
 	const progressBar = {
@@ -21,4 +22,10 @@ export const Progress = ({ protsent, technology, color }) => {
 			</div>
 		</>
 	);
+};
+
+Progress.propTypes = {
+	propsent: PropTypes.string,
+	technology: PropTypes.string,
+	color: PropTypes.string,
 };

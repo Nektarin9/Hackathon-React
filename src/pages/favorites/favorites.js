@@ -27,6 +27,7 @@ export const Favorites = () => {
 			<Breadcrumbs address={`/favorites`}>Favorites</Breadcrumbs>
 			<div className={styles.container}>
 				{ls.map(({ name, person }) => {
+					console.log(name)
 					return (
 						<TeamCard
 							key={name}

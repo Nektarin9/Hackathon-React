@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export const Badge = ({ color, children }) => {
 	const badgeStyle = {
 		padding: '5px 15px',
@@ -10,4 +12,9 @@ export const Badge = ({ color, children }) => {
 		borderRadius: '10px',
 	};
 	return <div style={badgeStyle}>{children}</div>;
+};
+
+Badge.propTypes = {
+	color: PropTypes.string,
+	children: PropTypes.string,
 };

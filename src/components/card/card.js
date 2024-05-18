@@ -7,7 +7,7 @@ export const Card = ({ id, name, aboutMe, photo, children }) => {
 			<Link to={`/${id}`}>
 				<div className={styles.block}>
 					<div className={styles.photoContainer}>
-						<img className={styles.fotoContent} src={photo} alt="" />
+						<img className={styles.fotoContent} src={photo} alt={id} />
 					</div>
 					<div className={styles.textContainer}>
 						<h1>{name}</h1>

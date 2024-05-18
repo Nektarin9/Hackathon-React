@@ -1,13 +1,13 @@
+import PropTypes from "prop-types"
 import styles from './button.module.css';
-export const Button = ({ color,shadowColor, parameter, onClick, children, type }) => {
+export const Button = ({ color, shadowColor, parameter, onClick, children, type }) => {
 	const buttonStyle = {
-		width: '100%',
 		height: '40px',
+		padding: "5px 10px",
 		boxShadow: `10px 10px 100px 6px ${shadowColor}`,
 		backgroundColor: `${color}`,
 	};
 	return (
-		<div className={styles.button_container}>
 			<button
 				onClick={() => onClick(parameter)}
 				style={buttonStyle}
@@ -19,6 +19,14 @@ export const Button = ({ color,shadowColor, parameter, onClick, children, type }
 			>
 				{children}
 			</button>
-		</div>
 	);
+}
+
+Button.propTypes = {
+	color: PropTypes.string,
+	shadowColor: PropTypes.string,
+	parameter: PropTypes.any,
+	onClick: PropTypes.func,
+	children: PropTypes.string,
+	type: PropTypes.bool,
 };

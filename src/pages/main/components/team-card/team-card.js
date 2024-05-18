@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Button, Card } from '../../../../components';
 
 export const TeamCard = ({
@@ -12,6 +13,7 @@ export const TeamCard = ({
 	parameter,
 	onClick,
 }) => {
+	console.log(typeof parameter );
 	return (
 		<Card id={id} name={name} aboutMe={content} photo={photo}>
 			<Button
@@ -25,4 +27,17 @@ export const TeamCard = ({
 			</Button>
 		</Card>
 	);
+};
+
+TeamCard.propTypes = {
+	id: PropTypes.string,
+	children: PropTypes.string,
+	name: PropTypes.string,
+	content: PropTypes.string,
+	photo: PropTypes.string,
+	color: PropTypes.string,
+	shadowColor: PropTypes.string,
+	typeBtn: PropTypes.bool,
+	parameter: PropTypes.any,
+	onClick: PropTypes.func,
 };

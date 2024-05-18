@@ -4,7 +4,7 @@ import { Clock } from "../сlock/clock";
 export const Footer = () => {
 	return (
 		<footer className={styles.footer}>
-			<div>
+			<div className={styles.container}>
 				<Clock />
 			</div>
 		</footer>

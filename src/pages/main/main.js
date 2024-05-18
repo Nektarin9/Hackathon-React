@@ -26,7 +26,7 @@ export const Main = () => {
 							parameter={personDb}
 							onClick={saveLocalStorage}
 						>
-							Добавить
+							Добавить в избранное
 						</TeamCard>
 					);
 				})}
