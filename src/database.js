@@ -74,11 +74,11 @@ export const database = {
 		],
 
 		sliderImg: [
-			'https://iimg.su/s/18/4FGbk9Ny8o7uIYm911t99OwNv5dRoXUmbLul1NFl.png',
-			'https://iimg.su/s/18/zD4obSIQIYkVn0FlqM3vZKKMUt34l4sxP6gFzHFC.png',
-			'https://iimg.su/s/18/sLDrFyHHTaJhQQmBReyoOBkjUd6EW7G48e3dWkHs.png',
-			'https://iimg.su/s/18/BLjz0UIeArGbBNKwCYz26mc0ad1q1KacBs5cRhxO.png',
-			'https://iimg.su/s/18/9r9SbS6wlfcJaC6CdPEbtJD4OtUZXJljkpQLkEdf.png',
+			'https://iimg.su/s/18/NR0mAu3C3c1tPiWOiH9LSwzq6H9rSS7bwt6iDlK9.png',
+			'https://iimg.su/s/18/ZpnZsqxNITO55WP0r8fFDr6uIH2lrhuuKtk9rGlx.png',
+			'https://iimg.su/s/18/JXOVJaHfuVP8AdXTsXVSEPJe4Alas5paW9LjWsvU.png',
+			'https://iimg.su/s/18/NSR1XPVytoRtWs2TMVEblPCK7tcE9Y0ub674uhCT.png',
+			'https://iimg.su/s/18/KJqIFpG8dvnf6yXiWekwaXBjm7BaPo30vq0I9jUj.png',
 		],
 		person: {
 			name: 'Natalia',
