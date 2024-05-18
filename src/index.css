@@ -28,11 +28,13 @@ p {
 	margin: 0;
 }
 a {
-	color: blue;
-	text-decoration: none; /* no underline */
-	color: inherit; /* blue colors for links too */
+	color: #d0e9e3;
+	text-decoration: none;
+}
 
-  }
+a:hover {
+	color: #00e2aa;
+}
 
 img {
 	pointer-events: none;

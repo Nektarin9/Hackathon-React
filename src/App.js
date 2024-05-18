@@ -1,6 +1,6 @@
 import { Footer, Header } from './components';
-import { Main, Participants, Favorites } from './pages';
 import { database } from './database';
+import { Main, Participants, Favorites, AboutUs, Page404 } from './pages';
 import { Routes, Route } from 'react-router-dom';
 
 import styles from './app.module.css';
@@ -20,7 +20,8 @@ export const App = () => {
 					<Route path="/Michael" element={<Participants DB={DB_MICHAEL} />} />
 					<Route path="/Natalia" element={<Participants DB={DB_NATALIA} />} />
 					<Route path="/favorites" element={<Favorites />} />
-					<Route path="*" element={<div>Ошибка</div>} />
+					<Route path="/aboutus" element={<AboutUs />} />
+					<Route path="*" element={<Page404 />} />
 				</Routes>
 			</div>
 			<Footer />
