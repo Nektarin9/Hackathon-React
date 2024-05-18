@@ -4,37 +4,54 @@
 }
 
 .fotoContainer {
-	margin: 20px 0;
+	margin: 10px 0;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
 
+.favoriteButton {
+	margin: 10px auto;
 }
 
 .textContent {
+	border: 1px solid;
+	border-radius: 1rem;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 }
 
+.textContent p {
+	font-size: 24px;
+}
+
 .info {
-	margin: 25px auto;
+	margin: 5px auto;
+	padding: 10px;
 	font-size: 24px;
 	font-weight: 500;
+}
 
+.info p {
+	padding: 6px;
+}
 
+.badges {
+	margin-top: 26px;
+	display: flex;
 }
 
 .fotoContent {
 	width: 350px;
-
+	margin: 18px auto;
 	border-radius: 1rem;
 }
 
 .socialContent {
 	position: relative;
 	width: 300px;
-	margin: 5px auto;
+	margin: 0 auto 20px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -52,4 +69,13 @@
     background-color: white;
     border-radius: 50%;
     top: 6px;
+}
+.sliderContent {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.sliderContent p {
+	margin: 26px;
+	font-size: 44px;
 }

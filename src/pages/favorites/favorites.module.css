@@ -1,7 +1,4 @@
-.favoritesContainer {
-	width: 1000px;
-	height: 100%;
-}
+
 .favoritesContainerFlex {
 	display: flex;
 	justify-content: space-between;
