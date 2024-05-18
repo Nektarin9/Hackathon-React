@@ -84,14 +84,14 @@ export const database = {
 			'https://iimg.su/s/18/KJqIFpG8dvnf6yXiWekwaXBjm7BaPo30vq0I9jUj.png',
 		],
 		person: {
-			name: 'Natalia',
+			name: 'Natalia Romanova (Natalika-frontend)',
 			age: 30,
 			city: 'Зугрэс',
 			photo: 'https://iimg.su/s/18/02o1kgC7nOH3VntcG2W04XYYkT2XVgIrIjbW71fk.png',
 			content: `Я начинающий Frontend разработчик, закончила Донецкий Национальный технический университет.
 			Отлично владею HTML, CSS, JS, React, SCSS, PUG.
 			Имею навыки работы c C, C++, C#, PHP.
-			Меня очень увлекает программирование, фронтенд - моя страсть, очень хочется еще освоить безопасность вэб-приложений. Мне бы 48 часов в сутках, и 40 из них посвящала бы программированию `,
+			Меня очень увлекает программирование, фронтенд - моя страсть, очень хочется еще освоить безопасность вэб-приложений. Мне бы 48 часов в сутках, и 40 из них посвящала бы программированию. Для этого сайта я реализовала: progress(частично), header, footer, page404, about-us(частично), анимацию главной страницы`,
 		},
 		socialNetwork: {
 			vk: 'https://vk.com/natallikar',
