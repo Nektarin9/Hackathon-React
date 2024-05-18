@@ -1,10 +1,11 @@
+import { NavLink } from 'react-router-dom';
 import styles from './header.module.css';
 import { Link } from "react-router-dom";
 
 export const Header = () => {
 	return (
 		<header className={styles.header}>
-			<div className={styles.logo}>Pixel Pioneers</div>
+			<NavLink to={"/"} className={styles.logo}>Pixel Pioneers</NavLink>
 			<nav className={styles.nav}>
 				<ul className={styles.list}>
 					<li className={styles.link}>

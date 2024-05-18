@@ -1,52 +1,59 @@
 import { TeamCard } from './components';
+import { database } from '../../database';
+import { saveLocalStorage } from '../../LS';
 import { Breadcrumbs, Button } from '../../components';
 
 import styles from './main.module.css';
 
-const users = {
-	nata: {
-		foto: '',
-		name: 'Наталья',
-		aboutMe:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. EligendiLorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi',
-	},
-	vladislav: {
-		foto: '',
-		name: 'Владислав',
-		aboutMe:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi',
-	},
-	michael: {
-		foto: '',
-		name: 'Михаил',
-		aboutMe:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi',
-	},
-};
 
 export const Main = () => {
+	const { DB_VLADISLAV, DB_NATALIA, DB_MICHAEL } = database;
 	return (
 		<>
 			<Breadcrumbs address="/">Home</Breadcrumbs>
 			<div className={styles.mainContainer}>
 				<TeamCard
-					id="Natalia"
-					name={users.nata.name}
-					aboutMe={users.nata.aboutMe}
+					id={DB_VLADISLAV.name}
+					name={DB_VLADISLAV.person.name}
+					aboutMe={DB_VLADISLAV.person.content}
+					photo={DB_VLADISLAV.person.photo}
 				/>
-				<Button color={"#ac1c02"} type={true}></Button>
+				<Button
+					color={'#ac1c02'}
+					type={true}
+					parameter={DB_VLADISLAV}
+					onClick={saveLocalStorage}
+				>
+					Добавить
+				</Button>
 				<TeamCard
-					id="Vladislav"
-					name={users.vladislav.name}
-					aboutMe={users.vladislav.aboutMe}
+					id={DB_MICHAEL.name}
+					name={DB_MICHAEL.person.name}
+					aboutMe={DB_MICHAEL.person.content}
+					photo={DB_MICHAEL.person.photo}
 				/>
-				<Button color={"#ac1c02"} type={true}></Button>
+				<Button
+					color={'#ac1c02'}
+					type={true}
+					parameter={DB_MICHAEL}
+					onClick={saveLocalStorage}
+				>
+					Добавить
+				</Button>
 				<TeamCard
-					id="Michael"
-					name={users.michael.name}
-					aboutMe={users.michael.aboutMe}
+					id={DB_NATALIA.name}
+					name={DB_NATALIA.person.name}
+					aboutMe={DB_NATALIA.person.content}
+					photo={DB_NATALIA.person.photo}
 				/>
-				<Button color={"#ac1c02"} type={true}></Button>
+				<Button
+					color={'#ac1c02'}
+					type={true}
+					parameter={DB_NATALIA}
+					onClick={saveLocalStorage}
+				>
+					Добавить
+				</Button>
 			</div>
 		</>
 	);
