@@ -5,7 +5,7 @@
 	position: fixed;
 	top: 0;
 	background-color: #17372f;
-	width: 1200px;
+	width: 80vw;
 	margin: 0 auto;
 	padding: 0 20px;
 	height: 120px;
@@ -20,7 +20,7 @@
 }
 
 .nav {
-	width: 100%;
+	width: 80%;
 	display: flex;
 	justify-content: left;
 }

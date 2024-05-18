@@ -1,9 +1,12 @@
 import styles from './footer.module.css';
+import { Clock } from "../сlock/clock";
 
 export const Footer = () => {
 	return (
 		<footer className={styles.footer}>
-			<div>Это подвал</div>
+			<div>
+				<Clock />
+			</div>
 		</footer>
 	);
 };
