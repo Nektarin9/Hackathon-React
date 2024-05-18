@@ -8,7 +8,6 @@ export const Participants = ({ DB }) => {
 		<>
 			<Breadcrumbs address="/">Home /</Breadcrumbs>
 			<Breadcrumbs address={`/${name}`}>{name}</Breadcrumbs>
-			<div className={styles.container_Badge}></div>
 			<div className={styles.participantsContainer}>
 				<div className={styles.fotoContainer}>
 					<img

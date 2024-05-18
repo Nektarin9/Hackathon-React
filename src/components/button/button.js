@@ -1,8 +1,9 @@
 import styles from './button.module.css';
-export const Button = ({ color, parameter, onClick, children, type }) => {
+export const Button = ({ color,shadowColor, parameter, onClick, children, type }) => {
 	const buttonStyle = {
 		width: '100%',
 		height: '40px',
+		boxShadow: `10px 10px 100px 6px ${shadowColor}`,
 		backgroundColor: `${color}`,
 	};
 	return (

@@ -1,20 +1,28 @@
-import styles from './team-card.module.css';
-import { Link } from 'react-router-dom';
+import { Button, Card } from '../../../../components';
 
-export const TeamCard = ({ id, name, aboutMe, photo }) => {
+export const TeamCard = ({
+	id,
+	children,
+	name,
+	content,
+	photo,
+	color,
+	shadowColor,
+	typeBtn,
+	parameter,
+	onClick,
+}) => {
 	return (
-		<div className={styles.cardContent}>
-			<Link to={`/${id}`}>
-				<div className={styles.block}>
-					<div className={styles.photoContainer}>
-						<img className={styles.fotoContent} src={photo} alt="" />
-					</div>
-					<div className={styles.textContainer}>
-						<h1>{name}</h1>
-						<p>{aboutMe}</p>
-					</div>
-				</div>
-			</Link>
-		</div>
+		<Card id={id} name={name} aboutMe={content} photo={photo}>
+			<Button
+				color={color}
+				shadowColor={shadowColor}
+				type={typeBtn}
+				parameter={parameter}
+				onClick={onClick}
+			>
+				{children}
+			</Button>
+		</Card>
 	);
 };
