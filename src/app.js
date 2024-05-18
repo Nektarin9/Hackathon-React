@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import styles from './app.module.css';
 
 export const App = () => {
-	const {  DB_VLADISLAV, DB_MICHAEL, DB_NATALIA } = database;
+	const { DB_VLADISLAV, DB_MICHAEL, DB_NATALIA } = database;
 	return (
 		<div className={styles.App}>
 			<Header />

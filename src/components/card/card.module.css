@@ -1,26 +1,31 @@
 .cardContent a {
 	text-decoration: none;
-	color: #0c0c0c;
 }
 
 .block {
+	align-items: center;
 	text-decoration: none;
 	margin: 15px;
 	cursor: pointer;
-	background-color: #638d83;
+	background-color: #000000;
 	display: flex;
 	width: 100%;
 	border-radius: 22px;
 	border: 1px solid;
+	transform: 0.3s;
+	transition: 0.3s;
 }
 
 .block:hover {
-	background-color: brown;
+	box-shadow: 10px 10px 100px 6px #09786b;
+	transform: 0.3s;
+	transition: 0.3s;
 }
 
 .fotoContent {
 	width: 215px;
 	border-radius: 22px;
+	color: #d0e9e3;
 }
 
 .photoContainer {
@@ -28,8 +33,12 @@
 }
 
 .textContainer {
+
 	padding: 10px;
 	margin-left: 10px;
 	text-align: center;
-	width: 75%;
+
+}
+.btn {
+	margin-left: 60px;
 }

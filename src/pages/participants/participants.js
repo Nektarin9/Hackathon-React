@@ -1,4 +1,3 @@
-import styles from './participants.module.css';
 import PropTypes from 'prop-types';
 import {
 	IconSocial,
@@ -8,15 +7,14 @@ import {
 	Breadcrumbs,
 } from '../../components';
 import { iconImages } from '../../constants/imagesPath';
+import styles from './participants.module.css';
 
 export const Participants = ({ DB }) => {
 	const { name, technology, badge, sliderImg, person, socialNetwork } = DB;
-	console.log(badge);
 	return (
 		<>
 			<Breadcrumbs address="/">Home /</Breadcrumbs>
 			<Breadcrumbs address={`/${name}`}>{name}</Breadcrumbs>
-			<div className={styles.container_Badge}></div>
 			<div className={styles.participantsContainer}>
 				<div className={styles.fotoContainer}>
 					<img

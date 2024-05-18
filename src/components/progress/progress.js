@@ -1,11 +1,11 @@
-import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import { useState } from 'react';
+import { Button } from '../button/button';
 import 'react-circular-progressbar/dist/styles.css';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import styles from './progress.module.css';
-import { Button } from "../button/button";
 
-export const Progress = ({protsent, technology, color}) => {
+export const Progress = ({ protsent, technology, color }) => {
 	const [isCircular, setIsCircular] = useState(false);
 
 	const progressBarStyle = {
@@ -26,9 +26,19 @@ export const Progress = ({protsent, technology, color}) => {
 
 	return (
 		<>
-			<h1 className={styles.h1_technology}>{technology}</h1>
+			<div className={styles.buttonContainer}>
+				<h1 className={styles.h1_technology}>{technology}</h1>
+				<Button
+					color={'rgb(4 101 78)'}
+					shadowColor={'#037a03'}
+					type={true}
+					onClick={toggleView}
+				>
+					{isCircular ? 'Линейная' : 'Круговая'}
+				</Button>
+			</div>
 			{isCircular ? (
-				<div style={{width: '100px', height: '100px'}}>
+				<div style={{ width: '200px', height: '200px' }}>
 					<CircularProgressbar
 						value={parseFloat(protsent)}
 						text={`${protsent}`}
@@ -44,11 +54,6 @@ export const Progress = ({protsent, technology, color}) => {
 					<div style={progressBarStyle}>{protsent}</div>
 				</div>
 			)}
-			<div className={styles.buttonContainer}>
-				<Button сolor={'#000000'} type={true} onClick={toggleView}>
-					{isCircular ? 'Линейная' : 'Круговая'}
-				</Button>
-			</div>
 		</>
 	);
 };

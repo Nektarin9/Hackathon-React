@@ -21,5 +21,5 @@ export const Breadcrumbs = ({ address, children }) => {
 
 Breadcrumbs.propTypes = {
 	address: PropTypes.string,
-	children: PropTypes.arrayOf(PropTypes.string),
+	children: PropTypes.string,
 };

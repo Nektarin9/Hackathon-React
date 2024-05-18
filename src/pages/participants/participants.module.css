@@ -2,6 +2,7 @@
 	display: flex;
 	width: 70vw;
 	flex-direction: column;
+	width: 100%;
 }
 
 .fotoContainer {
@@ -16,6 +17,7 @@
 }
 
 .textContent {
+	width: 100%;
 	border: 1px solid;
 	border-radius: 1rem;
 	text-align: center;

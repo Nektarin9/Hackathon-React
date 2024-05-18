@@ -1,1 +1,1 @@
-export * from './team-card/team-card';
+export *  from "./team-card/team-card"

@@ -1,28 +1,43 @@
-import styles from './team-card.module.css';
-import { Link } from 'react-router-dom';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
+import { Button, Card } from '../../../../components';
 
-export const TeamCard = ({ id, name, aboutMe, photo }) => {
+export const TeamCard = ({
+	id,
+	children,
+	name,
+	content,
+	photo,
+	color,
+	shadowColor,
+	typeBtn,
+	parameter,
+	onClick,
+}) => {
+	console.log(typeof parameter );
 	return (
-		<div className={styles.cardContent}>
-			<Link to={`/${id}`}>
-				<div className={styles.block}>
-					<div className={styles.photoContainer}>
-						<img className={styles.fotoContent} src={photo} alt="" />
-					</div>
-					<div className={styles.textContainer}>
-						<h1>{name}</h1>
-						<p>{aboutMe}</p>
-					</div>
-				</div>
-			</Link>
-		</div>
+		<Card id={id} name={name} aboutMe={content} photo={photo}>
+			<Button
+				color={color}
+				shadowColor={shadowColor}
+				type={typeBtn}
+				parameter={parameter}
+				onClick={onClick}
+			>
+				{children}
+			</Button>
+		</Card>
 	);
 };
 
 TeamCard.propTypes = {
 	id: PropTypes.string,
+	children: PropTypes.string,
 	name: PropTypes.string,
-	aboutMe: PropTypes.string,
+	content: PropTypes.string,
 	photo: PropTypes.string,
+	color: PropTypes.string,
+	shadowColor: PropTypes.string,
+	typeBtn: PropTypes.bool,
+	parameter: PropTypes.any,
+	onClick: PropTypes.func,
 };
