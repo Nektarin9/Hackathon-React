@@ -41,9 +41,14 @@ a {
 	color: #d0e9e3;
 	text-decoration: none;
 }
-
+a {
+	transform: 0.3s;
+	transition: 0.3s;
+}
 a:hover {
 	color: #00e2aa;
+	transform: 0.3s;
+	transition: 0.3s;
 }
 
 img {

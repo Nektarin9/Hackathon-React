@@ -15,14 +15,27 @@
 
 .faContainer {
 	margin-right: 25px;
+	transform: 0.3s;
+	transition: 0.3s;
 }
-
+.faContainer:hover {
+	color: #00e2aa;
+	transform: 0.3s;
+	transition: 0.3s;
+}
 .logo {
 	font-size: 32px;
+	margin-right: 50px;
 	font-weight: bold;
-	width: 225px;
+	max-width: 50px;
+	transform: 0.3s;
+	transition: 0.3s;
 }
-
+.logo:hover {
+	color: #00e2aa;
+	transform: 0.3s;
+	transition: 0.3s;
+}
 .nav {
 	width: 80%;
 	display: flex;
@@ -37,4 +50,8 @@
 .link {
 	font-size: 24px;
 	margin-right: 35px;
+}
+
+.cursor {
+	cursor: pointer;
 }

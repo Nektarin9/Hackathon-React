@@ -21,7 +21,7 @@ export const Header = () => {
 				</ul>
 			</nav>
 			<div className={styles.faContainer}>
-				<i className="fa fa-fast-backward" onClick={() => navigate(-1)} aria-hidden="true"/>
+				<i className={`fa fa-fast-backward ${styles.cursor}`} onClick={() => navigate(-1)} aria-hidden="true"/>
 			</div>
 		</header>
 	);
