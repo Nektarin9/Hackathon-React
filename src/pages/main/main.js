@@ -6,6 +6,7 @@ import { TeamCard } from './components/team-card/team-card';
 import { Breadcrumbs } from '../../components';
 
 import styles from './main.module.css';
+import { useEffect } from 'react';
 
 export const Main = () => {
 	const [popoverBlock, setPopoversBlock] = useState(false);
@@ -18,6 +19,15 @@ export const Main = () => {
 			setPopoversBlock(false);
 		}, 1500);
 	};
+	useEffect(() => {
+		const cards = document.querySelectorAll(`.${styles.card}`);
+		cards.forEach((card, index) => {
+			setTimeout(() => {
+				card.style.opacity = 1;
+				card.style.transform = 'translateY(0)';
+			}, index * 300);
+		});
+	}, [team]);
 
 	return (
 		<>
@@ -26,23 +36,23 @@ export const Main = () => {
 				{team.map((element) => {
 					let personDb = element[1];
 					return (
-							<TeamCard
-								key={personDb.name}
-								id={personDb.name}
-								name={personDb.person.name}
-								content={personDb.person.content}
-								photo={personDb.person.photo}
-								color={'rgb(4 101 78)'}
-								shadowColor={'#037a03'}
-								typeBtn={true}
-								parameter={personDb}
-								onClick={savePerson}
-							>
-								Добавить<br></br>в избранное
-							</TeamCard>
+						<TeamCard
+							key={personDb.name}
+							id={personDb.name}
+							name={personDb.person.name}
+							content={personDb.person.content}
+							photo={personDb.person.photo}
+							color={'rgb(4 101 78)'}
+							shadowColor={'#037a03'}
+							typeBtn={true}
+							parameter={personDb}
+							onClick={savePerson}
+						>
+							Добавить<br></br>в избранное
+						</TeamCard>
 					);
 				})}
-				{popoverBlock && <Popover/>}
+				{popoverBlock && <Popover />}
 			</div>
 		</>
 	);
