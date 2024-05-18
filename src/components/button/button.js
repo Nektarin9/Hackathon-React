@@ -1,4 +1,5 @@
 import styles from './button.module.css';
+import PropTypes from "prop-types";
 export const Button = ({ color, parameter, onClick, children, type }) => {
 	const buttonStyle = {
 		width: '100%',
@@ -20,4 +21,12 @@ export const Button = ({ color, parameter, onClick, children, type }) => {
 			</button>
 		</div>
 	);
+};
+
+Button.propTypes = {
+	color: PropTypes.string,
+	parameter: PropTypes.object,
+	onClick: PropTypes.func,
+	children: PropTypes.arrayOf(PropTypes.string),
+	type: PropTypes.bool,
 };

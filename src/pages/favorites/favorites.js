@@ -27,7 +27,7 @@ export const Favorites = () => {
 		<>
 			<Breadcrumbs address="/">Home /</Breadcrumbs>
 			<Breadcrumbs address={`/favorites`}>Favorites</Breadcrumbs>
-			<div className={styles.favoritesContainer}>
+			<div>
 				{ls && ls.map(({ name, person }) => {
 					return (
 						<div key={name} className={styles.favoritesContainerFlex}>

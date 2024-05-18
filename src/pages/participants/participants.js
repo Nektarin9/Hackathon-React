@@ -1,12 +1,11 @@
 import styles from './participants.module.css';
-import foto from '../../image/kittens.jpg';
+import PropTypes from 'prop-types';
 import {
 	IconSocial,
 	Badge,
 	Progress,
 	Slider,
 	Breadcrumbs,
-	Button,
 } from '../../components';
 import { iconImages } from '../../constants/imagesPath';
 
@@ -66,4 +65,8 @@ export const Participants = ({ DB }) => {
 			</div>
 		</>
 	);
+};
+
+Participants.propTypes = {
+	DB: PropTypes.object,
 };

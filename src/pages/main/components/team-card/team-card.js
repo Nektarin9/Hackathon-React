@@ -1,5 +1,6 @@
 import styles from './team-card.module.css';
 import { Link } from 'react-router-dom';
+import PropTypes from "prop-types";
 
 export const TeamCard = ({ id, name, aboutMe, photo }) => {
 	return (
@@ -17,4 +18,11 @@ export const TeamCard = ({ id, name, aboutMe, photo }) => {
 			</Link>
 		</div>
 	);
+};
+
+TeamCard.propTypes = {
+	id: PropTypes.string,
+	name: PropTypes.string,
+	aboutMe: PropTypes.string,
+	photo: PropTypes.string,
 };

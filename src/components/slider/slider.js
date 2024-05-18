@@ -9,6 +9,7 @@ import './styles.css';
 
 // import required modules
 import { Keyboard, Pagination, Navigation } from 'swiper/modules';
+import PropTypes from "prop-types";
 export const Slider = ({ imgSrc }) => {
 	return (
 		<div>
@@ -35,4 +36,8 @@ export const Slider = ({ imgSrc }) => {
 			</Swiper>
 		</div>
 	);
+};
+
+Slider.propTypes = {
+	imgSrc: PropTypes.string,
 };

@@ -1,4 +1,5 @@
 import styles from './icon.module.css';
+import PropTypes from "prop-types";
 
 export const IconSocial = ({ image, href }) => {
 	return (
@@ -6,4 +7,9 @@ export const IconSocial = ({ image, href }) => {
 			<img src={image} alt="" />
 		</a>
 	);
+};
+
+IconSocial.propTypes = {
+	image: PropTypes.string,
+	href: PropTypes.string,
 };
