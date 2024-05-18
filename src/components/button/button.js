@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import styles from './button.module.css';
 export const Button = ({ color, shadowColor, parameter, onClick, children, type }) => {
 	const buttonStyle = {
+		minWidth: "150px",
 		height: '40px',
 		padding: "5px 10px",
 		boxShadow: `10px 10px 100px 6px ${shadowColor}`,
