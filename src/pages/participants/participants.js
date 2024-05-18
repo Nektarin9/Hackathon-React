@@ -35,7 +35,7 @@ export const Participants = ({ DB }) => {
 				<div className={styles.textContent}>
 					<div className={styles.info}>
 						<p>{person.name}</p>
-						<p>Возраст: {person.age}.</p>
+						<p>Возраст: {person.age}</p>
 						<p>Город: {person.city}</p>
 						<p>{person.content}</p>
 						<div className={styles.badges}>

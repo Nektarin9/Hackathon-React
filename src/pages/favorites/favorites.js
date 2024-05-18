@@ -21,7 +21,6 @@ export const Favorites = () => {
 			}
 		});
 	};
-	console.log(ls);
 	return (
 		<>
 			<Breadcrumbs address="/">Home /</Breadcrumbs>
@@ -50,7 +49,11 @@ export const Favorites = () => {
 					<div className={styles.smileyContainer}>
 						<div>
 							<h2>Неужели тебе так никто и не понравился?</h2>
-							<img className={styles.smileyIcon} src={iconImages.smiley} alt="Печалька :("></img>
+							<img
+								className={styles.smileyIcon}
+								src={iconImages.smiley}
+								alt="Печалька :("
+							></img>
 						</div>
 					</div>
 				)}

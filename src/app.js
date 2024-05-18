@@ -29,4 +29,3 @@ export const App = () => {
 	);
 };
 
-// <Progress protsent={85} technology={"REACT"}></Progress>;

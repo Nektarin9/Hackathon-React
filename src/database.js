@@ -27,11 +27,14 @@ export const database = {
 
 		sliderImg: [
 			'https://iimg.su/s/17/wd8ir1YgV0J289DhX1RUF9jAwHHkNPCe3AsaqDfG.png',
+			'https://iimg.su/s/18/su276jSlvxoBN67fOKD6qYHjhqUxt5f548oDkUfv.png',
+			'https://iimg.su/s/18/V3Jgtzb1McpHNff1X301U570rwY7lufn7P39OLeS.png',
 			'https://iimg.su/s/17/6iN0Lsr8M53zaC3aVjiMf6q3p1ALe3goZj7pBl5e.png',
 			'https://iimg.su/s/17/4o4Sn2RAnP2ohh412s3RXP4VwLlQ0q5FBMtHzIsv.png',
 			'https://iimg.su/s/17/bLMT5kUE1kgNzfYnfjI5r6btFDqfkQurjhTwT1HF.png',
 			'https://iimg.su/s/17/HgZE4LIk5fQuc2OJxIKZ7QHjum9WkVetM2WG95Jc.png',
-			'https://iimg.su/s/17/ADjPAc3L3n6SpaGK9UWXWbaJprYoHV0umGLh77Lm.png',
+			'https://iimg.su/s/18/3cXhXWh6ar2B3GwPmdvwd4QevzSStmkW5qgqBJPC.png',
+			'https://iimg.su/s/18/PSkvjEJBgESt1nwekfXjzRksfzZB0g4YtXebwIBP.png',
 		],
 		person: {
 			name: 'Vladislav Kasparov (NektarinKoO)',
@@ -40,7 +43,7 @@ export const database = {
 			photo: 'https://iimg.su/s/17/zfO2xboHrMegkLvb09FWfTHdFYDlX3HioHYUTFj8.png',
 			content: `Я ведущий инженер и Frontend разработчик, закончил Московский технический университет связи и информатики.
 			Отлично владею HTML, CSS, JS, React, имею опыт коммерческой разработки, неоднократно учавствовал в хакатонах в качестве Team Lead.
-			Имею опыт работы с коммутаторами: Qtech, D-link, Edge Core и другими. На данной странице мною были реализованы компоненты: slider, progress (частично), breadcrumbs, badge, button, about-us (частично).
+			Имею опыт работы с коммутаторами: Qtech, D-link, Edge Core и другими. На данной странице мною были реализованы компоненты: slider, progress (частично), breadcrumbs, badge, button, about-us (частично), popover.
 			Реализовал всю логику работы local storage и разработал структуру базы данных. Выполнил общий рефакторинг и доработал все остальные компоненты. Мне нравятся вечерние прогулки. В свободное время люблю посещать спортзал.
 			`,
 		},

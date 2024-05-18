@@ -38,7 +38,7 @@ export const Main = () => {
 								parameter={personDb}
 								onClick={savePerson}
 							>
-								Добавить в избранное
+								Добавить<br></br>в избранное
 							</TeamCard>
 					);
 				})}

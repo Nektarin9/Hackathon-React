@@ -1,4 +1,5 @@
 
+
 .buttonStyle {
 	border: 1px solid #dbdbdb;
 	color: #d0e9e3;
@@ -10,7 +11,7 @@
 }
 .buttonStyle:hover {
 	color: #ffffff;
-	border:rgb(0, 0, 0) solid #7b7b7b;
+	border: rgb(0, 0, 0) solid #7b7b7b;
 	transform: 0.3s;
 	transition: 0.3s;
 }

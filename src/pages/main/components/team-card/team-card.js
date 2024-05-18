@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Button, Card } from '../../../../components';
+import styles from "./team-card.module.css"
 
 export const TeamCard = ({
 	id,
@@ -15,6 +16,7 @@ export const TeamCard = ({
 }) => {
 	return (
 		<Card id={id} name={name} aboutMe={content} photo={photo}>
+			<div className={styles.btnContainer}>
 			<Button
 				color={color}
 				shadowColor={shadowColor}
@@ -24,13 +26,14 @@ export const TeamCard = ({
 			>
 				{children}
 			</Button>
+			</div>
 		</Card>
 	);
 };
 
 TeamCard.propTypes = {
 	id: PropTypes.string,
-	children: PropTypes.string,
+	children: PropTypes.any,
 	name: PropTypes.string,
 	content: PropTypes.string,
 	photo: PropTypes.string,
