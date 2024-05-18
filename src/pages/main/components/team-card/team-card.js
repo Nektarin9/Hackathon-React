@@ -13,7 +13,6 @@ export const TeamCard = ({
 	parameter,
 	onClick,
 }) => {
-	console.log(typeof parameter );
 	return (
 		<Card id={id} name={name} aboutMe={content} photo={photo}>
 			<Button

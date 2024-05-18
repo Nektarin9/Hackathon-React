@@ -1,5 +1,6 @@
 import { Breadcrumbs } from '../../components';
 import { TeamCard } from '../main/components/team-card/team-card';
+import { iconImages } from '../../constants/imagesPath';
 import { readAllLS, removeLS } from '../../LS';
 import { useEffect, useState } from 'react';
 import styles from './favorites.module.css';
@@ -20,31 +21,39 @@ export const Favorites = () => {
 			}
 		});
 	};
-
+	console.log(ls);
 	return (
 		<>
 			<Breadcrumbs address="/">Home /</Breadcrumbs>
 			<Breadcrumbs address={`/favorites`}>Favorites</Breadcrumbs>
 			<div className={styles.container}>
-				{ls.map(({ name, person }) => {
-					console.log(name)
-					return (
-						<TeamCard
-							key={name}
-							id={name}
-							name={person.name}
-							content={person.content}
-							photo={person.photo}
-							color={'rgb(237 0 0)'}
-							shadowColor={'rgb(255 0 0)'}
-							typeBtn={true}
-							parameter={name}
-							onClick={removeLc}
-						>
-							Удалить
-						</TeamCard>
-					);
-				})}
+				{ls.length ? (
+					ls.map(({ name, person }) => {
+						return (
+							<TeamCard
+								key={name}
+								id={name}
+								name={person.name}
+								content={person.content}
+								photo={person.photo}
+								color={'rgb(237 0 0)'}
+								shadowColor={'rgb(255 0 0)'}
+								typeBtn={true}
+								parameter={name}
+								onClick={removeLc}
+							>
+								Удалить
+							</TeamCard>
+						);
+					})
+				) : (
+					<div className={styles.smileyContainer}>
+						<div>
+							<h2>Неужели тебе так никто и не понравился?</h2>
+							<img className={styles.smileyIcon} src={iconImages.smiley} alt="Печалька :("></img>
+						</div>
+					</div>
+				)}
 			</div>
 		</>
 	);

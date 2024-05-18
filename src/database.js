@@ -2,17 +2,17 @@ export const database = {
 	DB_VLADISLAV: {
 		name: 'Vladislav',
 		technology: [
-			{ protsent: '70%', name: 'HTML', color: '#ac1c02' },
-			{ protsent: '73%', name: 'СSS', color: '#1f406b' },
-			{ protsent: '13%', name: 'SСSS', color: '#d10073' },
-			{ protsent: '57%', name: 'JS', color: '#cdb100' },
+			{ protsent: '83%', name: 'HTML', color: '#ac1c02' },
+			{ protsent: '81%', name: 'СSS', color: '#1f406b' },
+			{ protsent: '21%', name: 'SСSS', color: '#d10073' },
+			{ protsent: '74%', name: 'JS', color: '#cdb100' },
 			{
 				protsent: '62%',
 				name: 'REACT (Redux, React Redux, React-router)',
 				color: '#005aa9',
 			},
 			{ protsent: '46%', name: 'GIT', color: 'black' },
-			{ protsent: '22%', name: 'PostgeSQL', color: '#197547' },
+			{ protsent: '32%', name: 'PostgeSQL', color: '#197547' },
 		],
 		badge: [
 			{
@@ -20,7 +20,7 @@ export const database = {
 				color: '#cdb100',
 			},
 			{
-				title: 'Инженер',
+				title: 'Engineer',
 				color: '#1f406b',
 			},
 		],
@@ -34,13 +34,15 @@ export const database = {
 			'https://iimg.su/s/17/ADjPAc3L3n6SpaGK9UWXWbaJprYoHV0umGLh77Lm.png',
 		],
 		person: {
-			name: 'Владислав Каспаров',
+			name: 'Vladislav Kasparov (NektarinKoO)',
 			age: 27,
 			city: 'Москва',
 			photo: 'https://iimg.su/s/17/zfO2xboHrMegkLvb09FWfTHdFYDlX3HioHYUTFj8.png',
 			content: `Я ведущий инженер и Frontend разработчик, закончил Московский технический университет связи и информатики.
-			Отлично владею HTML, CSS, JS, React, имею опыт коммерческой разработки, неоднократно учавствовал в хакатона в качестве Team Lead.
-			Имею опыт работы с коммутаторами: Qtech, D-link, Edge Core и другими. мне нравятся ночные и вечерные прогулки. В свободное время я люблю посещать спортзал.`,
+			Отлично владею HTML, CSS, JS, React, имею опыт коммерческой разработки, неоднократно учавствовал в хакатонах в качестве Team Lead.
+			Имею опыт работы с коммутаторами: Qtech, D-link, Edge Core и другими. На данной странице мною были реализованы компоненты: slider, progress (частично), breadcrumbs, badge, button, about-us (частично).
+			Реализовал всю логику работы local storage и разработал структуру базы данных. Выполнил общий рефакторинг и доработал все остальные компоненты. Мне нравятся вечерние прогулки. В свободное время люблю посещать спортзал.
+			`,
 		},
 		socialNetwork: {
 			vk: 'https://vk.com/id88581034',
@@ -145,4 +147,3 @@ export const database = {
 		},
 	},
 };
-
