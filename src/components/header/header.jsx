@@ -1,8 +1,9 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link, useNavigate } from 'react-router-dom';
 import styles from './header.module.css';
-import { Link } from "react-router-dom";
 
 export const Header = () => {
+	const navigate = useNavigate();
+
 	return (
 		<header className={styles.header}>
 			<NavLink to={"/"} className={styles.logo}>Pixel Pioneers</NavLink>
@@ -19,6 +20,9 @@ export const Header = () => {
 					</li>
 				</ul>
 			</nav>
+			<div className={styles.faContainer}>
+				<i className="fa fa-fast-backward" onClick={() => navigate(-1)} aria-hidden="true"/>
+			</div>
 		</header>
 	);
 };
