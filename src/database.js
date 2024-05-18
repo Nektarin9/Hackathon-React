@@ -139,7 +139,7 @@ export const database = {
 		],
 
 		sliderImg: [
-			'https://iimg.su/s/18/th_kqISbbXuRlO9i2RskYGtReqUzg75AqXuIGemkVd7.jpg',
+			'https://iimg.su/s/18/Z421jPtPA3SE69YEjig1HOajTq9B6OmuYChi8GCU.jpg',
 			'https://iimg.su/s/18/83bnStzW8SndsjtiLy3fNY4XDSCv6vgdzQsKIm0k.jpg',
 			'https://iimg.su/s/18/FFfoArUnwzSnmJNFi0o2GK7r7t7Pid63wum7HG0A.jpg',
 		],
@@ -148,10 +148,11 @@ export const database = {
 			age: 33,
 			city: 'Москва',
 			photo: 'https://iimg.su/s/18/sWx3HStAIZSyOQxoeZxblSKZlOVA4DCSU1mfyNxd.jpg',
-			content: `Активно учусь на Frontend разработчика. Родился в Москве, но на данный момент живу в городе Гюмри (Республика Армения).
+			content: ` Frontend разработчик. Родился в Москве, но на данный момент живу в городе Гюмри (Республика Армения).
 			Неплохо владею HTML, CSS и JS, а так же React и React Native.
 			Немного знаю Python (Написал Telegram бота и простенькую игру)
-			Увлекаюсь Спелестологией, фотографией и историей, люблю читать и путешествовать, открывать для себя новое`,
+			Увлекаюсь Спелестологией, фотографией и историей, люблю читать и путешествовать, открывать для себя новое.
+			Для данного приложения я реализовал routing, компоненты Main, team-card, iconSocial, participants, занимался версткой и стилизацией`,
 		},
 		socialNetwork: {
 			vk: 'https://vk.com/id24192203',
