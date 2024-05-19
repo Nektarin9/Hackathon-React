@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Hackathon-React/static/css/main.ccc31fe4.css",
-    "main.js": "/Hackathon-React/static/js/main.50c69c7a.js",
+    "main.css": "/Hackathon-React/static/css/main.192e2791.css",
+    "main.js": "/Hackathon-React/static/js/main.3349533a.js",
     "index.html": "/Hackathon-React/index.html",
-    "main.ccc31fe4.css.map": "/Hackathon-React/static/css/main.ccc31fe4.css.map",
-    "main.50c69c7a.js.map": "/Hackathon-React/static/js/main.50c69c7a.js.map"
+    "main.192e2791.css.map": "/Hackathon-React/static/css/main.192e2791.css.map",
+    "main.3349533a.js.map": "/Hackathon-React/static/js/main.3349533a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccc31fe4.css",
-    "static/js/main.50c69c7a.js"
+    "static/css/main.192e2791.css",
+    "static/js/main.3349533a.js"
   ]
 }
