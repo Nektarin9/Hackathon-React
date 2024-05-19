@@ -13,8 +13,8 @@ export const Participants = ({ DB }) => {
 	const { name, technology, badge, sliderImg, person, socialNetwork } = DB;
 	return (
 		<>
-			<Breadcrumbs address="/">Home /</Breadcrumbs>
-			<Breadcrumbs address={`/${name}`}>{name}</Breadcrumbs>
+			<Breadcrumbs address="/team-webcite">Home /</Breadcrumbs>
+			<Breadcrumbs address={`/team-webcite/${name}`}>{name}</Breadcrumbs>
 			<div className={styles.participantsContainer}>
 				<div className={styles.fotoContainer}>
 					<img

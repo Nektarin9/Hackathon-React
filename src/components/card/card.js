@@ -5,7 +5,7 @@ export const Card = ({ id, name, aboutMe, photo, children }) => {
 	return (
 		<div className={styles.card}>
 			<div className={styles.cardContent}>
-				<Link to={`/${id}`}>
+				<Link to={`/team-webcite/${id}`}>
 					<div className={styles.block}>
 						<div className={styles.photoContainer}>
 							<img className={styles.fotoContent} src={photo} alt={id} />

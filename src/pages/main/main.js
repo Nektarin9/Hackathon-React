@@ -30,7 +30,7 @@ export const Main = () => {
 
 	return (
 		<>
-			<Breadcrumbs address="/">Home</Breadcrumbs>
+			<Breadcrumbs address="/team-webcite">Home</Breadcrumbs>
 			<div className={styles.container}>
 				{team.map((element) => {
 					let personDb = element[1];
