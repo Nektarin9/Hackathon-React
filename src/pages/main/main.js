@@ -2,11 +2,10 @@ import { database } from '../../database';
 import { useState } from 'react';
 import { Popover } from '../../components';
 import { saveLocalStorage } from '../../LS';
-import { TeamCard } from './components/team-card/team-card';
+import { TeamCard } from '../components';
 import { Breadcrumbs } from '../../components';
-
-import styles from './main.module.css';
 import { useEffect } from 'react';
+import styles from './main.module.css';
 
 export const Main = () => {
 	const [popoverBlock, setPopoversBlock] = useState(false);
@@ -48,7 +47,8 @@ export const Main = () => {
 							parameter={personDb}
 							onClick={savePerson}
 						>
-							Добавить<br></br>в избранное
+							Добавить
+							<br />в избранное
 						</TeamCard>
 					);
 				})}

@@ -6,7 +6,9 @@ export const Header = () => {
 
 	return (
 		<header className={styles.header}>
-			<NavLink to={"/"} className={styles.logo}><span className={styles.sign_word}>Pixel Pioneers</span></NavLink>
+			<NavLink to={'/'} className={styles.logo}>
+				<span className={styles.sign_word}>Pixel Pioneers</span>
+			</NavLink>
 			<nav className={styles.nav}>
 				<ul className={styles.list}>
 					<li className={styles.link}>
@@ -21,7 +23,11 @@ export const Header = () => {
 				</ul>
 			</nav>
 			<div className={styles.faContainer}>
-				<i className={`fa fa-fast-backward ${styles.cursor}`} onClick={() => navigate(-1)} aria-hidden="true"/>
+				<i
+					className={`fa fa-fast-backward ${styles.cursor}`}
+					onClick={() => navigate(-1)}
+					aria-hidden="true"
+				/>
 			</div>
 		</header>
 	);

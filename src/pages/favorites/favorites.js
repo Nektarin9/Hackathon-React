@@ -1,5 +1,5 @@
 import { Breadcrumbs } from '../../components';
-import { TeamCard } from '../main/components/team-card/team-card';
+import { TeamCard } from '../components';
 import { iconImages } from '../../constants/imagesPath';
 import { readAllLS, removeLS } from '../../LS';
 import { useEffect, useState } from 'react';
@@ -11,7 +11,6 @@ export const Favorites = () => {
 	useEffect(() => {
 		setLs(readAllLS());
 	}, [remove]);
-
 
 	const deletePerson = (key) => {
 		ls.forEach(({ name }, index) => {

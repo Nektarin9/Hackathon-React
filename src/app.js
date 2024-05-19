@@ -2,7 +2,6 @@ import { Footer, Header } from './components';
 import { database } from './database';
 import { Main, Participants, Favorites, AboutUs, Page404 } from './pages';
 import { Routes, Route } from 'react-router-dom';
-
 import styles from './app.module.css';
 
 export const App = () => {
@@ -28,4 +27,3 @@ export const App = () => {
 		</div>
 	);
 };
-

@@ -9,8 +9,8 @@ export const saveLocalStorage = (DB) => {
 };
 
 export const removeLS = (key) => {
-	localStorage.removeItem(key)
-}
+	localStorage.removeItem(key);
+};
 
 export const readAllLS = () => {
 	let arrayLS = [];

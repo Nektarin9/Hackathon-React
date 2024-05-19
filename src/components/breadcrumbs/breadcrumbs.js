@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import styles from './breadcrumbs.module.css';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 export const Breadcrumbs = ({ address, children }) => {
 	const location = useLocation();
 	return (
