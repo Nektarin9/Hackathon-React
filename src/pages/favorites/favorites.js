@@ -23,8 +23,8 @@ export const Favorites = () => {
 	};
 	return (
 		<>
-			<Breadcrumbs address="/team-webcite">Home /</Breadcrumbs>
-			<Breadcrumbs address={`/team-webcite/favorites`}>Favorites</Breadcrumbs>
+			<Breadcrumbs address="/">Home /</Breadcrumbs>
+			<Breadcrumbs address={`/favorites`}>Favorites</Breadcrumbs>
 			<div className={styles.container}>
 				{ls.length ? (
 					ls.map(({ name, person }) => {

@@ -6,19 +6,19 @@ export const Header = () => {
 	const navigate = useNavigate();
 	return (
 		<header className={styles.header}>
-			<NavLink to={'/team-webcite'} className={styles.logo}>
+			<NavLink to={'/'} className={styles.logo}>
 				<span className={styles.sign_word}>Pixel Pioneers</span>
 			</NavLink>
 			<nav className={styles.nav}>
 				<ul className={styles.list}>
 					<li className={styles.link}>
-						<Link to="/team-webcite">Главная</Link>
+						<Link to="/">Главная</Link>
 					</li>
 					<li className={styles.link}>
-						<Link to="/team-webcite/aboutus">О нас</Link>
+						<Link to="/aboutus">О нас</Link>
 					</li>
 					<li className={styles.link}>
-						<Link to="/team-webcite/favorites">Избранное</Link>
+						<Link to="/favorites">Избранное</Link>
 					</li>
 				</ul>
 			</nav>

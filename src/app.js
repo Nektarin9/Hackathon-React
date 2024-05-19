@@ -11,21 +11,15 @@ export const App = () => {
 			<Header />
 			<div className={styles.content}>
 				<Routes>
-					<Route path="/team-webcite" element={<Main />} />
+					<Route path="/" element={<Main />} />
 					<Route
-						path="/team-webcite/Vladislav"
+						path="/Vladislav"
 						element={<Participants DB={DB_VLADISLAV} />}
 					/>
-					<Route
-						path="/team-webcite/Michael"
-						element={<Participants DB={DB_MICHAEL} />}
-					/>
-					<Route
-						path="/team-webcite/Natalia"
-						element={<Participants DB={DB_NATALIA} />}
-					/>
-					<Route path="/team-webcite/favorites" element={<Favorites />} />
-					<Route path="/team-webcite/aboutus" element={<AboutUs />} />
+					<Route path="/Michael" element={<Participants DB={DB_MICHAEL} />} />
+					<Route path="/Natalia" element={<Participants DB={DB_NATALIA} />} />
+					<Route path="/favorites" element={<Favorites />} />
+					<Route path="/aboutus" element={<AboutUs />} />
 					<Route path="*" element={<Page404 />} />
 				</Routes>
 			</div>
