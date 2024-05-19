@@ -1,0 +1,90 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	background-color: #17372f;
+	width: 80vw;
+	margin: 0 auto;
+	padding: 0 20px;
+	height: 120px;
+	box-shadow: 0 10px 17px -13px #00e2aa;
+	z-index: 10;
+}
+
+.faContainer {
+	cursor: pointer;
+	margin-right: 25px;
+	transform: initial;
+	transition: 0.3s;
+}
+.faContainer:hover {
+	color: #00e2aa;
+	transform: initial;
+	transition: 0.3s;
+}
+
+.logo:hover {
+	color: #00e2aa;
+	transform: initial;
+	transition: 0.3s;
+}
+.nav {
+	width: 80%;
+	display: flex;
+	justify-content: left;
+}
+
+.list {
+	margin-left: 30px;
+	width: 100%;
+	display: flex;
+}
+
+.link {
+	font-size: 24px;
+	margin-right: 35px;
+}
+
+
+.logo {
+	font-size: 32px;
+	margin-right: 100px;
+	font-weight: bold;
+	max-width: 50px;
+	transform: initial;
+	transition: 0.3s;
+	text-align: center;
+	padding: 60px 20px;
+}
+.logo .sign_word {
+	font-weight: bold;
+	line-height: 50px;
+	color: #d0e9e3;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	animation: 2s neon-2 alternate-reverse infinite;
+}
+.btnBack{
+	color: #d0e9e3;
+	width: 35px;
+	cursor: pointer;
+}
+@keyframes neon-2 {
+	from {
+		text-shadow:
+			0 0 5px #00e2aa,
+			0 0 10px #00e2aa,
+			0 0 15px #06c5ff,
+			0 0 20px #0829ae;
+	}
+	to {
+		text-shadow:
+			0 0 20px #fcfcfc,
+			0 0 35px #4dc3ee,
+			0 0 40px #68bca9,
+			0 0 50px #05af1b,
+			0 0 800px #05d0a1;
+	}
+}

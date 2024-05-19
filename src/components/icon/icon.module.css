@@ -1,0 +1,8 @@
+.icon {
+	z-index: 1;
+}
+
+.icon img {
+	cursor: pointer;
+	width: 50px;
+}

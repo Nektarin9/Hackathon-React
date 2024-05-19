@@ -1,0 +1,21 @@
+.container {
+	display: flex;
+	vertical-align: middle;
+	max-width: 1000px;
+	width: 100%;
+	background-color: #d0e9e3;
+	margin: 0 10px;
+	border-radius: 1em;
+}
+.h1_technology {
+	text-align: left;
+	margin: 7px 0 7px 10px;
+	font-size: 24px;
+	color: #d0e9e3;
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 0;
+}

@@ -1,0 +1,20 @@
+.container {
+	margin-top: 50px;
+	width: 73vw;
+	font-size: 1.5em;
+	align-items: center;
+	text-align: center;
+}
+
+.h1_text {
+	color: #efddba;
+}
+
+.img {
+	margin-top: 50px;
+	max-width: 1200px;
+	width: 100%;
+	border-radius: 1em;
+	box-shadow: 10px 10px 100px 6px #00f7ffc4;
+
+}

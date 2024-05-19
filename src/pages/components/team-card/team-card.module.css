@@ -1,0 +1,6 @@
+.btnContainer {
+	position: absolute;
+	bottom: 30px;
+	left: 23px;
+	z-index: 20;
+}

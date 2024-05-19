@@ -1,0 +1,22 @@
+.buttonStyle {
+	border: 1px solid #dbdbdb;
+	color: #d0e9e3;
+	font-size: 18px;
+	font-weight: 600;
+	transform: 0.3s;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.buttonStyle:hover {
+	color: #ffffff;
+	border: rgb(0, 0, 0) solid #7b7b7b;
+	transform: 0.3s;
+	transition: 0.3s;
+}
+
+.kvadrat {
+	border-radius: 0px;
+}
+.radius {
+	border-radius: 1em;
+}
