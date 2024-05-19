@@ -22,14 +22,8 @@ export const Header = () => {
 					</li>
 				</ul>
 			</nav>
-			<div className={styles.faContainer}>
-				<img
-					className={styles.btnBack}
-					src={iconImages.back}
-					onClick={() => navigate(-1)}
-					alt='Назад'
-
-				/>
+			<div className={styles.faContainer} onClick={() => navigate(-1)}>
+				<img className={styles.btnBack} src={iconImages.back} alt="Назад" />
 			</div>
 		</header>
 	);

@@ -68,7 +68,8 @@
 }
 .btnBack{
 	color: #d0e9e3;
-	width: 40px;
+	width: 35px;
+	cursor: pointer;
 }
 @keyframes neon-2 {
 	from {
