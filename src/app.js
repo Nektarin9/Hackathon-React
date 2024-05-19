@@ -13,7 +13,7 @@ export const App = () => {
 				<Routes>
 					<Route path="/team-webcite" element={<Main />} />
 					<Route
-						path="/Vladislav"
+						path="/team-webcite/Vladislav"
 						element={<Participants DB={DB_VLADISLAV} />}
 					/>
 					<Route

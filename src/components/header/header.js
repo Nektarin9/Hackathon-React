@@ -1,9 +1,9 @@
 import { NavLink, Link, useNavigate } from 'react-router-dom';
+import { iconImages } from '../../constants/imagesPath';
 import styles from './header.module.css';
 
 export const Header = () => {
 	const navigate = useNavigate();
-
 	return (
 		<header className={styles.header}>
 			<NavLink to={'/team-webcite'} className={styles.logo}>
@@ -23,10 +23,12 @@ export const Header = () => {
 				</ul>
 			</nav>
 			<div className={styles.faContainer}>
-				<i
-					className={`fa fa-fast-backward ${styles.cursor}`}
+				<img
+					className={styles.btnBack}
+					src={iconImages.back}
 					onClick={() => navigate(-1)}
-					aria-hidden="true"
+					alt='Назад'
+
 				/>
 			</div>
 		</header>

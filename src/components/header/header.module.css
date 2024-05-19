@@ -14,6 +14,7 @@
 }
 
 .faContainer {
+	cursor: pointer;
 	margin-right: 25px;
 	transform: initial;
 	transition: 0.3s;
@@ -46,9 +47,6 @@
 	margin-right: 35px;
 }
 
-.cursor {
-	cursor: pointer;
-}
 
 .logo {
 	font-size: 32px;
@@ -67,6 +65,10 @@
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	animation: 2s neon-2 alternate-reverse infinite;
+}
+.btnBack{
+	color: #d0e9e3;
+	width: 40px;
 }
 @keyframes neon-2 {
 	from {
